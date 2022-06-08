@@ -1,0 +1,14 @@
+@import '../styles/utils.scss';
+
+.SassComponent {
+    display: flex;
+    .box {
+        background-color: red;
+        width: 100px;
+        height: 100px;
+        &.red {
+            background: $red;
+            @include square(1);
+        }
+    }
+}
