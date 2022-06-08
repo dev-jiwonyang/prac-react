@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Info from './Info'
+import Info from '../effect/Info'
 
 function Visible() {
     const [visibility, setVisibility] = useState(false)
