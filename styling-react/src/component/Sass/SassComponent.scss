@@ -1,9 +1,10 @@
-@import '../styles/utils.scss';
-
 .SassComponent {
     display: flex;
     .box {
-        background-color: red;
+        background-color: $oc-gray-2;
+        @include media('<768px') {
+            background: $oc-gray-9;
+        }
         width: 100px;
         height: 100px;
         &.red {

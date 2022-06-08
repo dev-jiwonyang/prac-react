@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import SassComponent from './component/SassComponent';
+import StyledComponent from './component/css-in-js/StyledComponent'
 
 function App() {
   return (
     <div className="App">
-      <SassComponent />
+      <StyledComponent />
     </div>
   );
 }
